@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 })
 
 # -- 1) Paths --
-PROJECT_DIR <- "C:/Users/AMD/OneDrive - Shamba Centre/Shamba Centre Projects - Climate_Ag_evidencesynthesis_sciencepaper/data extraction protocol"
+PROJECT_DIR <- "C:/Users....."
 PDF_DIR     <- file.path(PROJECT_DIR, "papers")
 OUT_DIR     <- file.path(PROJECT_DIR, "output_mod"); dir.create(OUT_DIR, showWarnings = FALSE, recursive = TRUE)
 
@@ -163,4 +163,5 @@ get_prioritized_windows <- function(text_raw, head_chars = 20000){
   #  by = "File"
 #  )
 #}
+
 
